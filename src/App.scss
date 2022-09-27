@@ -1,0 +1,17 @@
+.gifted{
+  &__header {
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    color: white;
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-link {
+      margin-right: 50px;
+    }
+  }
+}
